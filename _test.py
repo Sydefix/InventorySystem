@@ -15,10 +15,6 @@ MDNavigationLayout:
         MDScreen:
             MDBoxLayout:
                 orientation:'vertical'
-            
-                MDTopAppBar:
-                    title: 'TestApp'
-                    left_action_items: [['menu', lambda x: nav_drawer.set_state("open")]]
 
 
                 MDBottomNavigation:
@@ -27,138 +23,98 @@ MDNavigationLayout:
                         name: 'screen 1'
                         text: 'first'
                         icon: 'garage'
+                        MDBoxLayout:
+                            orientation: 'vertical'
 
-                        MDScrollView:
-                            MDList:
-                                id: scroll
+                            MDTopAppBar:
+                                title: 'TestApp'
+                                left_action_items: [['menu', lambda x: nav_drawer.set_state("open")]]
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                            MDScrollView:
+                                MDList:
+                                    id: scroll
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
+                                    ThreeLineAvatarListItem:
+                                        text: "Three-line item with avatar"
+                                        secondary_text: "Secondary text here----------------------------------------------------------------"
+                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
+                                        ImageLeftWidget:
+                                            source: "image icon.png"
 
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
 
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
-
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
-
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
-
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
-
-                                ThreeLineAvatarListItem:
-                                    text: "Three-line item with avatar"
-                                    secondary_text: "Secondary text here----------------------------------------------------------------"
-                                    tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                    ImageLeftWidget:
-                                        source: "image icon.png"
 
 
 
