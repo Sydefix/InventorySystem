@@ -6,18 +6,19 @@ wb = load_workbook('MC-40 22C01.xlsx')
 sheet = wb['sheet1']
 
 royal_dict = {}
-royal_dict[1] = {}
-royal_dict[1][1] = {}
 
 def getvalue(sheet, col): 
     return sheet[cell.coordinate.replace('B',col)].value
 
 current_cell: str = ""
-middle_royal_dict = {}
-inner_royal_dict = {}
+
+
 
 for anycategory in sheet.iter_cols(min_row=2, min_col=2, max_col=2, max_row=139):
     for cell in anycategory:
+        inner_royal_dict = {}
+        middle_royal_dict = {}
+
         if cell.value is not None:
             current_cell = cell.value
         
@@ -65,6 +66,13 @@ for anycategory in sheet.iter_cols(min_row=2, min_col=2, max_col=2, max_row=139)
 
 final_result = json.dumps(royal_dict, indent=4)
 print(final_result)
+
+# Serializing json
+final_result = json.dumps(royal_dict, indent=4)
+
+# Writing to sample.json
+with open("MC-40 22C01.json", "w") as outfile:
+    outfile.write(final_result)
 
 # {
 #     "category": { #B

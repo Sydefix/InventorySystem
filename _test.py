@@ -106,18 +106,6 @@ MDNavigationLayout:
                                         ImageLeftWidget:
                                             source: "image icon.png"
 
-                                    ThreeLineAvatarListItem:
-                                        text: "Three-line item with avatar"
-                                        secondary_text: "Secondary text here----------------------------------------------------------------"
-                                        tertiary_text: "fit more text than usual-----------------------------------------------------"
-
-                                        ImageLeftWidget:
-                                            source: "image icon.png"
-
-
-
-
-
                     MDBottomNavigationItem:
                         name: 'screen 2'
                         text: 'something'
