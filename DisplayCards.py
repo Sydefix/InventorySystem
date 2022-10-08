@@ -16,7 +16,9 @@ class testcard(MDApp):
         screener = MDScreen()
         
         #list
-        listcontainer = MDScrollView(
+        listcontainer = MDScrollView()
+        
+        listcontainer.add_widget(
             MDList(
                 ThreeLineAvatarListItem(
                     ImageLeftWidget(source="./modified_assets/150w flood light led.png"),
@@ -25,6 +27,8 @@ class testcard(MDApp):
                     )
                 )
             )
+
+        
 
         screener.add_widget(listcontainer)
         return screener 
